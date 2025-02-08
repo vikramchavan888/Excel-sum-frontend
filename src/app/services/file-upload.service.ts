@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class FileUploadService {
-  private uploadUrl = `https://localhost:7199/api/Upload/upload`;
+  private uploadUrl = `https://excel-sum-backend.onrender.com/api/Upload/upload`;
 
   constructor(private http: HttpClient) {}
 
